@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 300px 300px;
+    grid-gap: 25px;
+}
+
+.flag {
+    display: flex;
+    background-color: #444;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px;
+    height: 225px;
+}
+
+#argentina {
+    background-image: url("./images/argentina.svg");
+}
+
+#iceland {
+    background-image: url("./images/iceland.svg");
+}
+
+#croatia {
+    background-image: url("./images/croatia.svg");
+}
+
+#nigeria {
+    background-image: url("images/nigeria.svg");
+}
